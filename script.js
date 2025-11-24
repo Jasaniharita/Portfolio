@@ -85,6 +85,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Handle contact form submission
 if (contactForm) {
+    // Initialize EmailJS
+    // You need to sign up at https://www.emailjs.com/ and get your Public Key
+    // Replace 'YOUR_PUBLIC_KEY' with your actual EmailJS public key
+    (function() {
+        emailjs.init('cAg_ihUxWnFG-evTK'); // Replace with your EmailJS Public Key
+    })();
+
     contactForm.addEventListener('submit', (e) => {
         e.preventDefault();
 
@@ -99,29 +106,41 @@ if (contactForm) {
             return;
         }
 
-        // Here you would normally send the form data to a server
-        // For this demo, we'll just show a success message
+        // EmailJS configuration
+        // Replace these with your actual EmailJS Service ID and Template ID
+        const serviceID = 'service_z48622e'; // Replace with your EmailJS Service ID
+        const templateID = 'template_6hlos7s'; // Replace with your EmailJS Template ID
 
-        const formData = {
-            name,
-            email,
-            subject,
-            message
+        // Prepare email parameters
+        const templateParams = {
+            from_name: name,
+            from_email: email,
+            subject: subject,
+            message: message,
+            to_email: 'haritajasani@gmail.com' // Your email address
         };
 
-        console.log('Form submitted:', formData);
+        // Send email using EmailJS
+        emailjs.send(serviceID, templateID, templateParams)
+            .then((response) => {
+                console.log('Email sent successfully!', response.status, response.text);
+                
+                // Show success message
+                const successMessage = document.createElement('div');
+                successMessage.className = 'success-message';
+                successMessage.innerHTML = `
+                    <i class="fas fa-check-circle"></i>
+                    <p>Thank you for your message, ${name}! I'll get back to you soon.</p>
+                `;
 
-        // Show success message
-        const successMessage = document.createElement('div');
-        successMessage.className = 'success-message';
-        successMessage.innerHTML = `
-            <i class="fas fa-check-circle"></i>
-            <p>Thank you for your message, ${name}! I'll get back to you soon.</p>
-        `;
-
-        // Replace form with success message
-        contactForm.innerHTML = '';
-        contactForm.appendChild(successMessage);
+                // Replace form with success message
+                contactForm.innerHTML = '';
+                contactForm.appendChild(successMessage);
+            })
+            .catch((error) => {
+                console.error('Error sending email:', error);
+                alert('Sorry, there was an error sending your message. Please try again or contact me directly at haritajasani@gmail.com');
+            });
     });
 }
 
