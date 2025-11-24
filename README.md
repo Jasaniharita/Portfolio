@@ -1,16 +1,16 @@
-# 🌐 Aditya Bhatt — Cybersecurity Portfolio
+# 🌐 Harita Jasani — Cybersecurity Portfolio
 
-Welcome to my personal portfolio website, hosted via GitHub Pages!
+Welcome to my personal portfolio website!
 
-This website showcases my professional journey, technical skills, certifications, achievements, major projects, and published articles in the field of **Cybersecurity**, **VAPT**, **Cryptography**, and **Cloud Security**.
+This website showcases my professional journey, technical skills, certifications, volunteering experience, and major projects in the field of **Cybersecurity**, **GRC (Governance, Risk & Compliance)**, **Risk Assessment**, and **Security Governance**.
 
-> 🔒 Ethical Hacker | Red Team Specialist | TryHackMe Global Top 2% | Published Author
+> 🔒 Cybersecurity Professional | GRC Specialist | Master's Student at University of Maryland, College Park
 
 ---
 
 ## 🚀 Live Website
 
-Visit the portfolio: [https://adityabhatt3010.github.io](https://adityabhatt3010.github.io)
+Visit the portfolio: [Your Vercel/Deployment URL]
 
 ---
 
@@ -42,21 +42,21 @@ Visit the portfolio: [https://adityabhatt3010.github.io](https://adityabhatt3010
 ## 🧠 Sections Included
 
 - 👨‍💻 About Me
-- ⚙️ Skills (Security, Programming, Tools)
+- ⚙️ Skills (Cybersecurity Tools, Networking Protocols, Security Concepts, GRC Frameworks)
 - 📁 Projects (with GitHub links)
-- 🏢 Experience
 - 🎓 Education
 - 📜 Certifications
-- 🏆 Achievements
-- 📚 Trainings & Courses
-- 📝 Blog Articles
+- 🤝 Volunteering
 - 📞 Contact Form
 
 ---
 
-## 🖥️ Hosting via GitHub Pages
+## 🖥️ Hosting
 
-This site is deployed using [GitHub Pages](https://pages.github.com/), a free and reliable method for web hosting directly from your GitHub repository.
+This site can be deployed using:
+- [Vercel](https://vercel.com) (recommended)
+- [GitHub Pages](https://pages.github.com/)
+- Any static hosting service
 
 ---
 
@@ -204,13 +204,26 @@ The project includes a `vercel.json` file for optimal static site configuration.
 
 ## 📧 Connect With Me
 
-- 🔗 [Linktree](https://linktr.ee/AdityaBhatt3010)
-- 💼 [LinkedIn](https://www.linkedin.com/in/aditya-bhatt-b61868250/)
-- 🐙 [GitHub](https://github.com/adityabhatt3010)
-- 📝 [Medium](https://medium.com/@info.adityabhatt3010)
-- 🛡️ [TryHackMe](https://tryhackme.com/p/info.adityabhatt)
-- 🎖️ [Credly](https://www.credly.com/users/aditya-bhatt3010)
+- 💼 [LinkedIn](https://www.linkedin.com/in/harita-jasani-8b8b17218/)
+- 🐙 [GitHub](https://github.com/Jasaniharita)
+- 📧 Email: haritajasani@gmail.com
 
 ---
 
-> Designed & Developed with 💙 by **Aditya Bhatt**
+## 🎓 Education
+
+- **Master's in Cybersecurity** - University of Maryland, College Park (2025-2027)
+- **BTech in Computer Science Engineering with specialization in Cyber Security** - SRM Institute of Science and Technology (2021-2025)
+
+---
+
+## 🔧 Technical Skills
+
+- **Cybersecurity Tools**: Wireshark, Metasploit, Kali Linux, Burp Suite, Snort, Nmap, Nessus, OpenVAS
+- **Networking Protocols**: TCP/IP, DNS, HTTP, SSL/TLS
+- **Security Concepts**: Ethical Hacking, Vulnerability Assessment, Incident Response, Threat Hunting, Digital Forensics, Malware Analysis, Risk Management
+- **GRC Frameworks**: NIST Cybersecurity Framework (NIST CSF), ISO 27001, MITRE ATT&CK, Zero Trust Architecture
+
+---
+
+> Designed & Developed with 💙 by **Harita Jasani**
