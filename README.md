@@ -10,7 +10,7 @@ This website showcases my professional journey, technical skills, certifications
 
 ## 🚀 Live Website
 
-Visit the portfolio: [Your Vercel/Deployment URL]
+Visit the portfolio: [https://haritajasani.com]
 
 ---
 
