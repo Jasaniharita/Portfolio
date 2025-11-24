@@ -60,6 +60,60 @@ This site is deployed using [GitHub Pages](https://pages.github.com/), a free an
 
 ---
 
+## 🚀 Deploy to Vercel
+
+### Method 1: Deploy via Vercel Dashboard (Easiest)
+
+1. **Push your code to GitHub**
+   - Make sure all your files are committed and pushed to your GitHub repository
+
+2. **Sign up/Login to Vercel**
+   - Go to [vercel.com](https://vercel.com)
+   - Sign up or login (you can use your GitHub account)
+
+3. **Import your project**
+   - Click "Add New Project"
+   - Import your GitHub repository
+   - Vercel will auto-detect it's a static site
+
+4. **Configure and Deploy**
+   - Framework Preset: **Other** (or leave as default)
+   - Root Directory: `./` (root)
+   - Build Command: Leave empty (no build needed for static site)
+   - Output Directory: Leave empty (or `./`)
+   - Click **Deploy**
+
+5. **Your site is live!**
+   - Vercel will provide you with a URL like `your-project.vercel.app`
+   - You can add a custom domain later in project settings
+
+### Method 2: Deploy via Vercel CLI
+
+1. **Install Vercel CLI**
+   ```bash
+   npm install -g vercel
+   ```
+
+2. **Login to Vercel**
+   ```bash
+   vercel login
+   ```
+
+3. **Deploy**
+   ```bash
+   vercel
+   ```
+   - Follow the prompts
+   - For production deployment: `vercel --prod`
+
+### Configuration
+
+The project includes a `vercel.json` file for optimal static site configuration.
+
+**Note:** Make sure to update your EmailJS credentials in `script.js` before deploying if you want the contact form to work.
+
+---
+
 ## 📧 Connect With Me
 
 - 🔗 [Linktree](https://linktr.ee/AdityaBhatt3010)
